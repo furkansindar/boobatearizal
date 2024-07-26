@@ -1,0 +1,33 @@
+.content > * {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.content {
+    display: flex;
+    gap: 1.5rem;
+}
+#mainContent {
+    margin: 3em;
+}
+.text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.image {
+    height: auto;
+    width: 40%;
+}
+img {
+    max-width: 100%;
+}
+@media screen and (orientation: portrait) {
+    img {display: none;}
+    .content {
+        display: block;
+        padding: 6em;
+    }
+    
+}

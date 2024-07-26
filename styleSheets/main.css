@@ -1,0 +1,118 @@
+/************************
+    Skip Link
+https://madison-college-it-curriculum.github.io/UIUX/unit03/exercises/menu.html
+https://www.youtube.com/watch?v=fBF0KU7xLhI&feature=youtu.be
+************************/
+.skipLink {
+    position: absolute;
+    left: -9999px;
+    padding: .5em .25em;
+  }
+  .skipLink:focus {
+    left: 0;
+  }
+/*************************
+      Sticky Footer
+https://css-tricks.com/couple-takes-sticky-footer/
+http://css-tricks.com/snippets/css/a-guide-to-flexbox
+https://www.youtube.com/watch?v=5VlxzmAj2uw
+https://madison-college-it-curriculum.github.io/UIUX/unit03/exercises/someBasics.html
+*************************/
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+} 
+/***************************
+    Footer Content
+https://css-tricks.com/couple-takes-sticky-footer/
+http://css-tricks.com/snippets/css/a-guide-to-flexbox
+https://www.youtube.com/watch?v=3YW65K6LcIA
+https://www.youtube.com/watch?v=m3OjWNFREJo
+https://madison-college-it-curriculum.github.io/UIUX/unit03/exercises/someBasics.html
+***************************/
+
+#footerContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em;
+  background-color: #e2d5d0;
+}
+#footerContent img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 8px;
+}
+#footerContent a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #000;
+  padding: 1em;
+}
+#footerContent a:hover  {
+  background-color: #A2290B;
+  color: #F7F7F6;
+}
+/*****************************
+        Main Menu
+https://www.youtube.com/watch?v=SYJfHufB-BQ
+https://madison-college-it-curriculum.github.io/UIUX/unit03/exercises/menu.html
+*****************************/
+
+ul {
+  display: flex; 
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  transition-duration: .5s;
+}
+header {
+  background-color: #e2d5d0;
+}
+
+li:hover {
+  background-color: #9D260B;
+  color: #fff;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 1em;
+}
+
+li a:hover {
+  color: #fff;
+}
+/*********************************
+    Header 1 
+*********************************/
+h1 {
+  text-align: center;
+  color: #a36d65;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+h2 {
+  color: #a36d65;
+}
+body {
+  background-color: #f8f1ef;
+}

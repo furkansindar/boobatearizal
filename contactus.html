@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Get in touch with Booba Tea for any suggestions, requests, or complaints. We value your feedback and aim to improve our services based on your input. Contact us today!">
+        <link rel="stylesheet" href="styleSheets/main.css">
+        <link rel="stylesheet" href="styleSheets/contactus.css">
+</head>
+
+<body>
+    <a href="#mainContent" class="skipLink">Skip to Main Content</a>
+    <a href="#footerContent" class="skipLink">Skip to Footer Content</a>
+    <header>
+        <h1>Contact Us</h1>
+        <nav aria-label="Main Menu">
+            <ul role="menubar" aria-label="Main Menu">
+                <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                <li role="none"><a href="menu.html" role="menuitem">Menu</a></li>
+                <li role="none"><a href="ordernow.html" role="menuitem">Order Now</a></li>
+                <li role="none"><a href="contactus.html" role="menuitem">Contact Us</a></li>
+                <li role="none"><a href="Aboutus.html" role="menuitem">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="mainContent">
+        <div class="formDiv">
+            <form action="http://itins3.madisoncollege.edu/echo.php" method="post" aria-label="Contact Us Form">
+                <h2>You can contact us for your suggestions, requests or complaints.</h2>
+                <p>Thank you for your valuable feedback! Every comment you make contributes to the growth of our
+                    community,
+                    and we are truly happy to grow with you. Please note that information marked with (*) is required.
+                </p>
+                <fieldset>
+                    <legend>Contact Us</legend>
+
+                    <label for="ContactFirstName">*First Name:</label>
+                    <br>
+                    <input type="text" name="firstName" required aria-required="true" id="ContactFirstName" class="a11y" placeholder="First Name">
+
+                    <br><br>
+                    <label for="ContactLastName">Last Name:</label>
+                    <br>
+                    <input type="text" name="lastName" aria-required="false" id="ContactLastName" class="a11y" placeholder="Last Name">
+
+                    <br><br>
+                    <label for="ContactEmail">*Email:</label>
+                    <br>
+                    <input type="email" name="email" required aria-required="true" id="ContactEmail" class="a11y" placeholder="Email">
+
+                    <br><br>
+                    <label for="ContactPhone">Phone:</label>
+                    <br>
+                    <input type="text" name="Phone" aria-required="false" id="ContactPhone" class="a11y" placeholder="Phone">
+
+                    <br><br>
+                    <label for="textarea" class="fixedWidth">Message:</label>
+                    <br>
+                    <textarea name="textarea" id="textarea" aria-label="Message" placeholder="textarea"></textarea>
+
+                 
+
+                        <h3>Booba's Franchise</h3>
+                        <p>
+                            Booba Tea is a renowned franchise with a significant presence in America, Canada, and the
+                            Philippines. Join our growing family and become a Booba Tea shop owner to embark on an
+                            exciting
+                            adventure. Take your place in this dynamic and thriving community and bring the joy of
+                            bubble
+                            tea to
+                            your local area. Who’s ready to become a bubble tea shop owner?
+                        </p>
+                        <div class="franchise">
+                        <p>do you want information about booba franchise?</p>
+                        <input id="Yes" type="radio" name="answer" value="Yes">
+                        <label class="fixedWidth" for="Yes">Yes</label>
+                        <input id="No" type="radio" name="answer" value="No">
+                        <label class="fixedWidth" for="No">No</label>
+                        </div>
+                        <div class="button-group" id="ContactUsButtonContainer">
+                            <input type="submit" value="send">
+                            <input type="reset" value="delete">
+                        </div>
+                        <p>Thank you for contacting us. We will get back to you within 3 business days.</p>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer id="footerContent">
+        <a href="mailto:boobarizal@gmail.com" aria-label="Email us at boobarizal@gmail.com">boobarizal@gmail.com</a>
+        <a href="tel:655-555-5555" aria-label="Call us at 655-555-5555">655-555-5555</a>
+            <a href="https://www.instagram.com/boobatearizal/" target="_blank" aria-label="Follow us on instagram">
+                Instagram
+                <img src="images/Instagram.jfif" alt="Instagram icon">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61557473542536" target="_blank"
+                aria-label="Follow us on Facebook">
+                Facebook
+                <img src="images/facebookicon.webp" alt="Facebook icon">
+            </a>
+    </footer>
+
+
+
+</body>
+
+</html>
