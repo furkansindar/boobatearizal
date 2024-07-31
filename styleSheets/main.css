@@ -47,7 +47,7 @@ https://madison-college-it-curriculum.github.io/UIUX/unit03/exercises/someBasics
   justify-content: space-around;
   align-items: center;
   padding: 0.5em;
-  background-color: #e2d5d0;
+  background-color: #E2D5D0;
 }
 #footerContent img {
   width: 1.5em;
@@ -81,7 +81,7 @@ li {
   transition-duration: .5s;
 }
 header {
-  background-color: #e2d5d0;
+  background-color: #E2D5D0;
 }
 
 li:hover {
@@ -104,7 +104,7 @@ li a:hover {
 *********************************/
 h1 {
   text-align: center;
-  color: #a36d65;
+  color: #604039;
   margin: 0;
   font-weight: bold;
 }
