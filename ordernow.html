@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta name="description"
         content="Order your favorite bubble tea from Booba Tea. Choose from a variety of classic, milk teas, premium tastes, cream series, fruit teas, and new flavors. Customize your order and enjoy the best bubble tea experience.">
-        <link rel="stylesheet" href="styleSheets/main.css">
-        <link rel="stylesheet" href="styleSheets/ordernow.css">
+    <link rel="stylesheet" href="styleSheets/main.css">
+    <link rel="stylesheet" href="styleSheets/ordernow.css">
 </head>
 
 <body>
@@ -28,535 +28,551 @@
     <main id="mainContent">
         <form action="https://formspree.io/f/xblrokzn" method="post">
             <div class="customer-info-section">
-            <fieldset>
-                <legend>Customer information</legend>
-                <div class="form-group">
-                <label for="ContactFirstName">*First Name:</label>
-                <input type="text" name="firstName" required aria-required="true" id="ContactFirstName"  placeholder="First Name">
+                <fieldset>
+                    <legend>Customer information</legend>
+                    <div class="form-group">
+                        <label for="ContactFirstName">*First Name:</label>
+                        <input type="text" name="firstName" required aria-required="true" id="ContactFirstName"
+                            placeholder="First Name">
+                    </div>
+                </fieldset>
+            </div>
+            <div class="section">
+                <div class="header">
+                    <h2>Milk Teas</h2>
+                    <ul>
+                        <li>Tall - 55</li>
+                        <li>Grande - 65</li>
+                        <li>Venti - 75</li>
+                    </ul>
                 </div>
-            </fieldset>
-            </div>
-            <div class="section">
-            <div class="header">
-            <h2>Milk Teas</h2>
-            <ul>
-                <li>Tall - 55</li>
-                <li>Grande - 65</li>
-                <li>Venti - 75</li>
-            </ul>
-            </div>
-            <div class="input">
-            <h3>Classic</h3>
-            <hr>
-            <div class="form-group">
-            <label for="ClassicTall" aria-label="Classic Tall Quantity">Tall</label>
-            <input type="number" id="ClassicTall" name="ClassicTall" min="0" aria-required="false">
-            </div>
-            <div class="form-group">
-            <label for="ClassicGrande" aria-label="Classic Grande Quantity">Grande</label>
-            <input type="number" id="ClassicGrande" name="ClassicGrande" min="0" aria-required="false">
-            </div>
-            <div class="form-group">
-            <label for="ClassicVenti" aria-label="Classic Venti Quantity">Venti</label>
-            <input type="number" id="ClassicVenti" name="ClassicVenti" min="0" aria-required="false">
-            </div>
-            <hr>
-            <h3>Yukkuri Wintermelon</h3>
-            <hr>
-            <div class="form-group">
-            <label for="YukkuriWintermelonTall" aria-label="Yukkuri Wintermelon Tall Quantity">Tall</label>
-            <input type="number" id="YukkuriWintermelonTall" name="YukkuriWintermelonTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="YukkuriWintermelonGrande" aria-label="Yukkuri Wintermelon Grande Quantity">Grande</label>
-            <input type="number" id="YukkuriWintermelonGrande" name="YukkuriWintermelonGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="YukkuriWintermelonVenti" aria-label="Yukkuri Wintermelon Venti Quantity">Venti</label>
-            <input type="number" id="YukkuriWintermelonVenti" name="YukkuriWintermelonVenti" min="0">
-            </div>
-            <hr>
-            <h3>Suki Taro</h3>
-            <hr>
-            <div class="form-group">
-            <label for="SukiTaroTall" aria-label="Suki Taro Tall Quantity">Tall</label>
-            <input type="number" id="SukiTaroTall" name="SukiTaroTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="SukiTaroGrande" aria-label="Suki Taro Grande Quantity">Grande</label>
-            <input type="number" id="SukiTaroGrande" name="SukiTaroGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="SukiTaroVenti" aria-label="Suki Taro Venti Quantity">Venti</label>
-            <input type="number" id="SukiTaroVenti" name="SukiTaroVenti" min="0">
-            </div>
-            <hr>
-            <h3>Sokai Strawberry</h3>
-            <hr>
-            <div class="form-group">
-            <label for="SokaiStrawberryTall" aria-label="Sokai Strawberry Tall Quantity">Tall</label>
-            <input type="number" id="SokaiStrawberryTall" name="SokaiStrawberryTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="SokaiStrawberryGrande" aria-label="Sokai Strawberry Grande Quantity">Grande</label>
-            <input type="number" id="SokaiStrawberryGrande" name="SokaiStrawberryGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="SokaiStrawberryVenti" aria-label="Sokai Strawberry Venti Quantity">Venti</label>
-            <input type="number" id="SokaiStrawberryVenti" name="SokaiStrawberryVenti" min="0">
-            </div>
-            <hr>
-            <h3>Oishi Cookies and Cream</h3>
-            <hr>
-            <div class="form-group">
-            <label for="OishiCookiesTall" aria-label="Oishi Cookies and Cream Tall Quantity">Tall</label>
-            <input type="number" id="OishiCookiesTall" name="OishiCookiesTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="OishiCookiesGrande" aria-label="Oishi Cookies and Cream Grande Quantity">Grande</label>
-            <input type="number" id="OishiCookiesGrande" name="OishiCookiesGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="OishiCookiesVenti" aria-label="Oishi Cookies and Cream Venti Quantity">Venti</label>
-            <input type="number" id="OishiCookiesVenti" name="OishiCookiesVenti" min="0">
-            </div>
-            <hr>
-            <h3>Hijo Vanilla</h3>
-            <hr>
-            <div class="form-group">
-            <label for="HijoVanillaTall" aria-label="Hijo Vanilla Tall Quantity">Tall</label>
-            <input type="number" id="HijoVanillaTall" name="HijoVanillaTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="HijoVanillaGrande" aria-label="Hijo Vanilla Grande Quantity">Grande</label>
-            <input type="number" id="HijoVanillaGrande" name="HijoVanillaGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="HijoVanillaVenti" aria-label="Hijo Vanilla Venti Quantity">Venti</label>
-            <input type="number" id="HijoVanillaVenti" name="HijoVanillaVenti" min="0">
-            </div>
-            <hr>
+                <div class="input">
+                    <h3>Classic</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="ClassicTall" aria-label="Classic Tall Quantity">Tall</label>
+                        <input type="number" id="ClassicTall" name="ClassicTall" min="0" aria-required="false">
+                    </div>
+                    <div class="form-group">
+                        <label for="ClassicGrande" aria-label="Classic Grande Quantity">Grande</label>
+                        <input type="number" id="ClassicGrande" name="ClassicGrande" min="0" aria-required="false">
+                    </div>
+                    <div class="form-group">
+                        <label for="ClassicVenti" aria-label="Classic Venti Quantity">Venti</label>
+                        <input type="number" id="ClassicVenti" name="ClassicVenti" min="0" aria-required="false">
+                    </div>
+                    <hr>
+                    <h3>Yukkuri Wintermelon</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="YukkuriWintermelonTall" aria-label="Yukkuri Wintermelon Tall Quantity">Tall</label>
+                        <input type="number" id="YukkuriWintermelonTall" name="YukkuriWintermelonTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="YukkuriWintermelonGrande"
+                            aria-label="Yukkuri Wintermelon Grande Quantity">Grande</label>
+                        <input type="number" id="YukkuriWintermelonGrande" name="YukkuriWintermelonGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="YukkuriWintermelonVenti"
+                            aria-label="Yukkuri Wintermelon Venti Quantity">Venti</label>
+                        <input type="number" id="YukkuriWintermelonVenti" name="YukkuriWintermelonVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Suki Taro</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="SukiTaroTall" aria-label="Suki Taro Tall Quantity">Tall</label>
+                        <input type="number" id="SukiTaroTall" name="SukiTaroTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="SukiTaroGrande" aria-label="Suki Taro Grande Quantity">Grande</label>
+                        <input type="number" id="SukiTaroGrande" name="SukiTaroGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="SukiTaroVenti" aria-label="Suki Taro Venti Quantity">Venti</label>
+                        <input type="number" id="SukiTaroVenti" name="SukiTaroVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Sokai Strawberry</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="SokaiStrawberryTall" aria-label="Sokai Strawberry Tall Quantity">Tall</label>
+                        <input type="number" id="SokaiStrawberryTall" name="SokaiStrawberryTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="SokaiStrawberryGrande" aria-label="Sokai Strawberry Grande Quantity">Grande</label>
+                        <input type="number" id="SokaiStrawberryGrande" name="SokaiStrawberryGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="SokaiStrawberryVenti" aria-label="Sokai Strawberry Venti Quantity">Venti</label>
+                        <input type="number" id="SokaiStrawberryVenti" name="SokaiStrawberryVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Oishi Cookies and Cream</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="OishiCookiesTall" aria-label="Oishi Cookies and Cream Tall Quantity">Tall</label>
+                        <input type="number" id="OishiCookiesTall" name="OishiCookiesTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="OishiCookiesGrande"
+                            aria-label="Oishi Cookies and Cream Grande Quantity">Grande</label>
+                        <input type="number" id="OishiCookiesGrande" name="OishiCookiesGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="OishiCookiesVenti" aria-label="Oishi Cookies and Cream Venti Quantity">Venti</label>
+                        <input type="number" id="OishiCookiesVenti" name="OishiCookiesVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Hijo Vanilla</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="HijoVanillaTall" aria-label="Hijo Vanilla Tall Quantity">Tall</label>
+                        <input type="number" id="HijoVanillaTall" name="HijoVanillaTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="HijoVanillaGrande" aria-label="Hijo Vanilla Grande Quantity">Grande</label>
+                        <input type="number" id="HijoVanillaGrande" name="HijoVanillaGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="HijoVanillaVenti" aria-label="Hijo Vanilla Venti Quantity">Venti</label>
+                        <input type="number" id="HijoVanillaVenti" name="HijoVanillaVenti" min="0">
+                    </div>
+                    <hr>
 
-            <h3>Yorikurai Dark Choco</h3>
-            <hr>
-            <div class="form-group">
-            <label for="YorikuraiDarkChocoTall" aria-label="Yorikurai Dark Choco Tall Quantity">Tall</label>
-            <input type="number" id="YorikuraiDarkChocoTall" name="YorikuraiDarkChocoTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="YorikuraiDarkChocoGrande" aria-label="Yorikurai Dark Choco Grande Quantity">Grande</label>
-            <input type="number" id="YorikuraiDarkChocoGrande" name="YorikuraiDarkChocoGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="YorikuraiDarkChocoVenti" aria-label="Yorikurai Dark Choco Venti Quantity">Venti</label>
-            <input type="number" id="YorikuraiDarkChocoVenti" name="YorikuraiDarkChocoVenti" min="0">
-            </div>
-            <hr>
-            <h3>Kurimi Chocolate</h3>
-            <hr>
-            <div class="form-group">
-            <label for="KurimiChocolateTall" aria-label="Kurimi Chocolate Tall Quantity">Tall</label>
-            <input type="number" id="KurimiChocolateTall" name="KurimiChocolateTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="KurimiChocolateGrande" aria-label="Kurimi Chocolate Grande Quantity">Grande</label>
-            <input type="number" id="KurimiChocolateGrande" name="KurimiChocolateGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="KurimiChocolateVenti" aria-label="Kurimi Chocolate Venti Quantity">Venti</label>
-            <input type="number" id="KurimiChocolateVenti" name="KurimiChocolateVenti" min="0">
-            </div>
-            <hr>
-            <h3>Salted Caramel</h3>
-            <hr>
-            <div class="form-group">
-            <label for="SaltedCaramelTall" aria-label="Salted Caramel Tall Quantity">Tall</label>
-            <input type="number" id="SaltedCaramelTall" name="SaltedCaramelTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="SaltedCaramelGrande" aria-label="Salted Caramel Grande Quantity">Grande</label>
-            <input type="number" id="SaltedCaramelGrande" name="SaltedCaramelGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="SaltedCaramelVenti" aria-label="Salted Caramel Venti Quantity">Venti</label>
-            <input type="number" id="SaltedCaramelVenti" name="SaltedCaramelVenti" min="0">
-            </div>
-            <hr>
-        </div>
-        </div>
-
-        <div class="section">
-        <div class="header">
-            <h2>Premium Taste</h2>
-            <ul>
-                <li>Tall - 65</li>
-                <li>Grande - 75</li>
-                <li>Venti - 85</li>
-            </ul>
-            </div>
-            <div class="input">
-            <h3>Heisei Hokkaido</h3>
-            <hr>
-            <div class="form-group">
-            <label for="HeiseiHokkaidoTall" aria-label="Heisei Hokkaido Tall Quantity">Tall</label>
-            <input type="number" id="HeiseiHokkaidoTall" name="HeiseiHokkaidoTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="HeiseiHokkaidoGrande" aria-label="Heisei Hokkaido Grande Quantity">Grande</label>
-            <input type="number" id="HeiseiHokkaidoGrande" name="HeiseiHokkaidoGrande" min="0">
-            </div>  
-            <div class="form-group">
-            <label for="HeiseiHokkaidoVenti" aria-label="Heisei Hokkaido Venti Quantity">Venti</label>
-            <input type="number" id="HeiseiHokkaidoVenti" name="HeiseiHokkaidoVenti" min="0">
-            </div>
-            <hr>
-            <h3>Nodo Okinawa</h3>
-            <hr>
-            <div class="form-group">
-            <label for="NodoOkinawaTall" aria-label="Nodo Okinawa Tall Quantity">Tall</label>
-            <input type="number" id="NodoOkinawaTall" name="NodoOkinawaTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="NodoOkinawaGrande" aria-label="Nodo Okinawa Grande Quantity">Grande</label>
-            <input type="number" id="NodoOkinawaGrande" name="NodoOkinawaGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="NodoOkinawaVenti" aria-label="Nodo Okinawa Venti Quantity">Venti</label>
-            <input type="number" id="NodoOkinawaVenti" name="NodoOkinawaVenti" min="0">
-            </div>
-            <hr>
-            <h3>Brown Sugar</h3>
-            <hr>
-            <div class="form-group">
-            <label for="BrownSugarTall" aria-label="Brown Sugar Tall Quantity">Tall</label>
-            <input type="number" id="BrownSugarTall" name="BrownSugarTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BrownSugarGrande" aria-label="Brown Sugar Grande Quantity">Grande</label>
-            <input type="number" id="BrownSugarGrande" name="BrownSugarGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BrownSugarVenti" aria-label="Brown Sugar Venti Quantity">Venti</label>
-            <input type="number" id="BrownSugarVenti" name="BrownSugarVenti" min="0">
-            </div>
-            <hr>
-            <h3>Tai-GO</h3>
-            <hr>
-            <div class="form-group">
-            <label for="TaiGOTall" aria-label="Tai-GO Tall Quantity">Tall</label>
-            <input type="number" id="TaiGOTall" name="TaiGOTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="TaiGOGrande" aria-label="Tai-GO Grande Quantity">Grande</label>
-            <input type="number" id="TaiGOGrande" name="TaiGOGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="TaiGOVenti" aria-label="Tai-GO Venti Quantity">Venti</label>
-            <input type="number" id="TaiGOVenti" name="TaiGOVenti" min="0">
-            </div>
-            <hr>
-
-            <h3>Matcha</h3>
-            <hr>
-            <div class="form-group">
-            <label for="MatchaTall" aria-label="Matcha Tall Quantity">Tall</label>
-            <input type="number" id="MatchaTall" name="MatchaTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="MatchaGrande" aria-label="Matcha Grande Quantity">Grande</label>
-            <input type="number" id="MatchaGrande" name="MatchaGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="MatchaVenti" aria-label="Matcha Venti Quantity">Venti</label>
-            <input type="number" id="MatchaVenti" name="MatchaVenti" min="0">
-            </div>
-            <hr>
-            <h3>Cheese Cake</h3>
-            <hr>
-            <div class="form-group">
-            <label for="CheeseCakeTall" aria-label="Cheese Cake Tall Quantity">Tall</label>
-            <input type="number" id="CheeseCakeTall" name="CheeseCakeTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="CheeseCakeGrande" aria-label="Cheese Cake Grande Quantity">Grande</label>
-            <input type="number" id="CheeseCakeGrande" name="CheeseCakeGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="CheeseCakeVenti" aria-label="Cheese Cake Venti Quantity">Venti</label>
-            <input type="number" id="CheeseCakeVenti" name="CheeseCakeVenti" min="0">
-            </div>
-            <hr>
-            </div>
+                    <h3>Yorikurai Dark Choco</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="YorikuraiDarkChocoTall" aria-label="Yorikurai Dark Choco Tall Quantity">Tall</label>
+                        <input type="number" id="YorikuraiDarkChocoTall" name="YorikuraiDarkChocoTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="YorikuraiDarkChocoGrande"
+                            aria-label="Yorikurai Dark Choco Grande Quantity">Grande</label>
+                        <input type="number" id="YorikuraiDarkChocoGrande" name="YorikuraiDarkChocoGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="YorikuraiDarkChocoVenti"
+                            aria-label="Yorikurai Dark Choco Venti Quantity">Venti</label>
+                        <input type="number" id="YorikuraiDarkChocoVenti" name="YorikuraiDarkChocoVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Kurimi Chocolate</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="KurimiChocolateTall" aria-label="Kurimi Chocolate Tall Quantity">Tall</label>
+                        <input type="number" id="KurimiChocolateTall" name="KurimiChocolateTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="KurimiChocolateGrande" aria-label="Kurimi Chocolate Grande Quantity">Grande</label>
+                        <input type="number" id="KurimiChocolateGrande" name="KurimiChocolateGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="KurimiChocolateVenti" aria-label="Kurimi Chocolate Venti Quantity">Venti</label>
+                        <input type="number" id="KurimiChocolateVenti" name="KurimiChocolateVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Salted Caramel</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="SaltedCaramelTall" aria-label="Salted Caramel Tall Quantity">Tall</label>
+                        <input type="number" id="SaltedCaramelTall" name="SaltedCaramelTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="SaltedCaramelGrande" aria-label="Salted Caramel Grande Quantity">Grande</label>
+                        <input type="number" id="SaltedCaramelGrande" name="SaltedCaramelGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="SaltedCaramelVenti" aria-label="Salted Caramel Venti Quantity">Venti</label>
+                        <input type="number" id="SaltedCaramelVenti" name="SaltedCaramelVenti" min="0">
+                    </div>
+                    <hr>
+                </div>
             </div>
 
             <div class="section">
-            <div class="header">
-            <h2>Cream Series</h2>
-            <ul>
-                <li>Tall - 75</li>
-                <li>Grande - 85</li>
-                <li>Venti - 95</li>
-            </ul>
-            </div>
-            <div class="input">
-            <h3>Red Velvet Cream Cheese</h3>
-            <hr>
-            <div class="form-group">
-            <label for="RedVelvetCreamCheeseTall" aria-label="Red Velvet Cream Cheese Tall Quantity">Tall</label>
-            <input type="number" id="RedVelvetCreamCheeseTall" name="RedVelvetCreamCheeseTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="RedVelvetCreamCheeseGrande" aria-label="Red Velvet Cream Cheese Grande Quantity">Grande</label>
-            <input type="number" id="RedVelvetCreamCheeseGrande" name="RedVelvetCreamCheeseGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="RedVelvetCreamCheeseVenti" aria-label="Red Velvet Cream Cheese Venti Quantity">Venti</label>
-            <input type="number" id="RedVelvetCreamCheeseVenti" name="RedVelvetCreamCheeseVenti" min="0">
-            </div>
-            <hr>
-            <h3>Classic Cream Cheese</h3>
-            <hr>
-            <div class="form-group">
-            <label for="ClassicCreamCheeseTall" aria-label="Classic Cream Cheese Tall Quantity">Tall</label>
-            <input type="number" id="ClassicCreamCheeseTall" name="ClassicCreamCheeseTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="ClassicCreamCheeseGrande" aria-label="Classic Cream Cheese Grande Quantity">Grande</label>
-            <input type="number" id="ClassicCreamCheeseGrande" name="ClassicCreamCheeseGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="ClassicCreamCheeseVenti" aria-label="Classic Cream Cheese Venti Quantity">Venti</label>
-            <input type="number" id="ClassicCreamCheeseVenti" name="ClassicCreamCheeseVenti" min="0">
-            </div>
-            <hr>
-            <h3>Taro Cream Cheese</h3>
-            <hr>
-            <div class="form-group">
-            <label for="TaroCreamCheeseTall" aria-label="Taro Cream Cheese Tall Quantity">Tall</label>
-            <input type="number" id="TaroCreamCheeseTall" name="TaroCreamCheeseTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="TaroCreamCheeseGrande" aria-label="Taro Cream Cheese Grande Quantity">Grande</label>
-            <input type="number" id="TaroCreamCheeseGrande" name="TaroCreamCheeseGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="TaroCreamCheeseVenti" aria-label="Taro Cream Cheese Venti Quantity">Venti</label>
-            <input type="number" id="TaroCreamCheeseVenti" name="TaroCreamCheeseVenti" min="0">
-            </div>
-            <hr>
-            <h3>Chocolate Cream Cheese</h3>
-            <hr>
-            <div class="form-group">
-            <label for="ChocolateCreamCheeseTall" aria-label="Chocolate Cream Cheese Tall Quantity">Tall</label>
-            <input type="number" id="ChocolateCreamCheeseTall" name="ChocolateCreamCheeseTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="ChocolateCreamCheeseGrande" aria-label="Chocolate Cream Cheese Grande Quantity">Grande</label>
-            <input type="number" id="ChocolateCreamCheeseGrande" name="ChocolateCreamCheeseGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="ChocolateCreamCheeseVenti" aria-label="Chocolate Cream Cheese Venti Quantity">Venti</label>
-            <input type="number" id="ChocolateCreamCheeseVenti" name="ChocolateCreamCheeseVenti" min="0">
-            </div>
-            <hr>
-            <h3>Matcha Cream Cheese</h3>
-            <hr>
-            <div class="form-group">
-            <label for="MatchaCreamCheeseTall" aria-label="Matcha Cream Cheese Tall Quantity">Tall</label>
-            <input type="number" id="MatchaCreamCheeseTall" name="MatchaCreamCheeseTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="MatchaCreamCheeseGrande" aria-label="Matcha Cream Cheese Grande Quantity">Grande</label>
-            <input type="number" id="MatchaCreamCheeseGrande" name="MatchaCreamCheeseGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="MatchaCreamCheeseVenti" aria-label="Matcha Cream Cheese Venti Quantity">Venti</label>
-            <input type="number" id="MatchaCreamCheeseVenti" name="MatchaCreamCheeseVenti" min="0">
-            </div>
-            <hr>
-            </div>
+                <div class="header">
+                    <h2>Premium Taste</h2>
+                    <ul>
+                        <li>Tall - 65</li>
+                        <li>Grande - 75</li>
+                        <li>Venti - 85</li>
+                    </ul>
+                </div>
+                <div class="input">
+                    <h3>Heisei Hokkaido</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="HeiseiHokkaidoTall" aria-label="Heisei Hokkaido Tall Quantity">Tall</label>
+                        <input type="number" id="HeiseiHokkaidoTall" name="HeiseiHokkaidoTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="HeiseiHokkaidoGrande" aria-label="Heisei Hokkaido Grande Quantity">Grande</label>
+                        <input type="number" id="HeiseiHokkaidoGrande" name="HeiseiHokkaidoGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="HeiseiHokkaidoVenti" aria-label="Heisei Hokkaido Venti Quantity">Venti</label>
+                        <input type="number" id="HeiseiHokkaidoVenti" name="HeiseiHokkaidoVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Nodo Okinawa</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="NodoOkinawaTall" aria-label="Nodo Okinawa Tall Quantity">Tall</label>
+                        <input type="number" id="NodoOkinawaTall" name="NodoOkinawaTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="NodoOkinawaGrande" aria-label="Nodo Okinawa Grande Quantity">Grande</label>
+                        <input type="number" id="NodoOkinawaGrande" name="NodoOkinawaGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="NodoOkinawaVenti" aria-label="Nodo Okinawa Venti Quantity">Venti</label>
+                        <input type="number" id="NodoOkinawaVenti" name="NodoOkinawaVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Brown Sugar</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="BrownSugarTall" aria-label="Brown Sugar Tall Quantity">Tall</label>
+                        <input type="number" id="BrownSugarTall" name="BrownSugarTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BrownSugarGrande" aria-label="Brown Sugar Grande Quantity">Grande</label>
+                        <input type="number" id="BrownSugarGrande" name="BrownSugarGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BrownSugarVenti" aria-label="Brown Sugar Venti Quantity">Venti</label>
+                        <input type="number" id="BrownSugarVenti" name="BrownSugarVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Tai-GO</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="TaiGOTall" aria-label="Tai-GO Tall Quantity">Tall</label>
+                        <input type="number" id="TaiGOTall" name="TaiGOTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="TaiGOGrande" aria-label="Tai-GO Grande Quantity">Grande</label>
+                        <input type="number" id="TaiGOGrande" name="TaiGOGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="TaiGOVenti" aria-label="Tai-GO Venti Quantity">Venti</label>
+                        <input type="number" id="TaiGOVenti" name="TaiGOVenti" min="0">
+                    </div>
+                    <hr>
+
+                    <h3>Matcha</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="MatchaTall" aria-label="Matcha Tall Quantity">Tall</label>
+                        <input type="number" id="MatchaTall" name="MatchaTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="MatchaGrande" aria-label="Matcha Grande Quantity">Grande</label>
+                        <input type="number" id="MatchaGrande" name="MatchaGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="MatchaVenti" aria-label="Matcha Venti Quantity">Venti</label>
+                        <input type="number" id="MatchaVenti" name="MatchaVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Cheese Cake</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="CheeseCakeTall" aria-label="Cheese Cake Tall Quantity">Tall</label>
+                        <input type="number" id="CheeseCakeTall" name="CheeseCakeTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="CheeseCakeGrande" aria-label="Cheese Cake Grande Quantity">Grande</label>
+                        <input type="number" id="CheeseCakeGrande" name="CheeseCakeGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="CheeseCakeVenti" aria-label="Cheese Cake Venti Quantity">Venti</label>
+                        <input type="number" id="CheeseCakeVenti" name="CheeseCakeVenti" min="0">
+                    </div>
+                    <hr>
+                </div>
             </div>
 
             <div class="section">
-            <div class="header">
-            <h2>Fruit Teas</h2>
-            <ul>
-                <li>Tall - 60</li>
-                <li>Grande - 70</li>
-                <li>Venti - 80</li>
-            </ul>
-            </div>
-            <div class="input">
-            <h3>Strawberry</h3>
-            <hr>
-            <div class="form-group">
-            <label for="StrawberryTall" aria-label="Strawberry Tall Quantity">Tall</label>
-            <input type="number" id="StrawberryTall" name="StrawberryTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="StrawberryGrande" aria-label="Strawberry Grande Quantity">Grande</label>
-            <input type="number" id="StrawberryGrande" name="StrawberryGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="StrawberryVenti" aria-label="Strawberry Venti Quantity">Venti</label>
-            <input type="number" id="StrawberryVenti" name="StrawberryVenti" min="0">
-            </div>
-            <hr>
-            <h3>Blueberry</h3>
-            <hr>
-            <div class="form-group">
-            <label for="BlueberryTall" aria-label="Blueberry Tall Quantity">Tall</label>
-            <input type="number" id="BlueberryTall" name="BlueberryTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BlueberryGrande" aria-label="Blueberry Grande Quantity">Grande</label>
-            <input type="number" id="BlueberryGrande" name="BlueberryGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BlueberryVenti" aria-label="Blueberry Venti Quantity">Venti</label>
-            <input type="number" id="BlueberryVenti" name="BlueberryVenti" min="0">
-            </div>
-            <hr>
-            <h3>Kiwi</h3>
-            <hr>
-            <div class="form-group">
-            <label for="KiwiTall" aria-label="Kiwi Tall Quantity">Tall</label>
-            <input type="number" id="KiwiTall" name="KiwiTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="KiwiGrande" aria-label="Kiwi Grande Quantity">Grande</label>
-            <input type="number" id="KiwiGrande" name="KiwiGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="KiwiVenti" aria-label="Kiwi Venti Quantity">Venti</label>
-            <input type="number" id="KiwiVenti" name="KiwiVenti" min="0">
-            </div>
-            <hr>
-            <h3>Watermelon</h3>
-            <hr>
-            <div class="form-group">
-            <label for="WatermelonTall" aria-label="Watermelon Tall Quantity">Tall</label>
-            <input type="number" id="WatermelonTall" name="WatermelonTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="WatermelonGrande" aria-label="Watermelon Grande Quantity">Grande</label>
-            <input type="number" id="WatermelonGrande" name="WatermelonGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="WatermelonVenti" aria-label="Watermelon Venti Quantity">Venti</label>
-            <input type="number" id="WatermelonVenti" name="WatermelonVenti" min="0">
-            </div>
-            <hr>
-            <h3>Lychee</h3>
-            <hr>
-            <div class="form-group">
-            <label for="LycheeTall" aria-label="Lychee Tall Quantity">Tall</label>
-            <input type="number" id="LycheeTall" name="LycheeTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="LycheeGrande" aria-label="Lychee Grande Quantity">Grande</label>
-            <input type="number" id="LycheeGrande" name="LycheeGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="LycheeVenti" aria-label="Lychee Venti Quantity">Venti</label>
-            <input type="number" id="LycheeVenti" name="LycheeVenti" min="0">
-            </div>
-            <hr>
-            </div>
+                <div class="header">
+                    <h2>Cream Series</h2>
+                    <ul>
+                        <li>Tall - 75</li>
+                        <li>Grande - 85</li>
+                        <li>Venti - 95</li>
+                    </ul>
+                </div>
+                <div class="input">
+                    <h3>Red Velvet Cream Cheese</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="RedVelvetCreamCheeseTall"
+                            aria-label="Red Velvet Cream Cheese Tall Quantity">Tall</label>
+                        <input type="number" id="RedVelvetCreamCheeseTall" name="RedVelvetCreamCheeseTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="RedVelvetCreamCheeseGrande"
+                            aria-label="Red Velvet Cream Cheese Grande Quantity">Grande</label>
+                        <input type="number" id="RedVelvetCreamCheeseGrande" name="RedVelvetCreamCheeseGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="RedVelvetCreamCheeseVenti"
+                            aria-label="Red Velvet Cream Cheese Venti Quantity">Venti</label>
+                        <input type="number" id="RedVelvetCreamCheeseVenti" name="RedVelvetCreamCheeseVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Classic Cream Cheese</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="ClassicCreamCheeseTall" aria-label="Classic Cream Cheese Tall Quantity">Tall</label>
+                        <input type="number" id="ClassicCreamCheeseTall" name="ClassicCreamCheeseTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="ClassicCreamCheeseGrande"
+                            aria-label="Classic Cream Cheese Grande Quantity">Grande</label>
+                        <input type="number" id="ClassicCreamCheeseGrande" name="ClassicCreamCheeseGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="ClassicCreamCheeseVenti"
+                            aria-label="Classic Cream Cheese Venti Quantity">Venti</label>
+                        <input type="number" id="ClassicCreamCheeseVenti" name="ClassicCreamCheeseVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Taro Cream Cheese</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="TaroCreamCheeseTall" aria-label="Taro Cream Cheese Tall Quantity">Tall</label>
+                        <input type="number" id="TaroCreamCheeseTall" name="TaroCreamCheeseTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="TaroCreamCheeseGrande" aria-label="Taro Cream Cheese Grande Quantity">Grande</label>
+                        <input type="number" id="TaroCreamCheeseGrande" name="TaroCreamCheeseGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="TaroCreamCheeseVenti" aria-label="Taro Cream Cheese Venti Quantity">Venti</label>
+                        <input type="number" id="TaroCreamCheeseVenti" name="TaroCreamCheeseVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Chocolate Cream Cheese</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="ChocolateCreamCheeseTall"
+                            aria-label="Chocolate Cream Cheese Tall Quantity">Tall</label>
+                        <input type="number" id="ChocolateCreamCheeseTall" name="ChocolateCreamCheeseTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="ChocolateCreamCheeseGrande"
+                            aria-label="Chocolate Cream Cheese Grande Quantity">Grande</label>
+                        <input type="number" id="ChocolateCreamCheeseGrande" name="ChocolateCreamCheeseGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="ChocolateCreamCheeseVenti"
+                            aria-label="Chocolate Cream Cheese Venti Quantity">Venti</label>
+                        <input type="number" id="ChocolateCreamCheeseVenti" name="ChocolateCreamCheeseVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Matcha Cream Cheese</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="MatchaCreamCheeseTall" aria-label="Matcha Cream Cheese Tall Quantity">Tall</label>
+                        <input type="number" id="MatchaCreamCheeseTall" name="MatchaCreamCheeseTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="MatchaCreamCheeseGrande"
+                            aria-label="Matcha Cream Cheese Grande Quantity">Grande</label>
+                        <input type="number" id="MatchaCreamCheeseGrande" name="MatchaCreamCheeseGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="MatchaCreamCheeseVenti"
+                            aria-label="Matcha Cream Cheese Venti Quantity">Venti</label>
+                        <input type="number" id="MatchaCreamCheeseVenti" name="MatchaCreamCheeseVenti" min="0">
+                    </div>
+                    <hr>
+                </div>
             </div>
 
             <div class="section">
-            <div class="header">
-            <h2>New Flavors</h2>
-            <ul>
-                <li>Tall - 65</li>
-                <li>Grande - 75</li>
-                <li>Venti - 85</li>
-            </ul>
+                <div class="header">
+                    <h2>Fruit Teas</h2>
+                    <ul>
+                        <li>Tall - 60</li>
+                        <li>Grande - 70</li>
+                        <li>Venti - 80</li>
+                    </ul>
+                </div>
+                <div class="input">
+                    <h3>Strawberry</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="StrawberryTall" aria-label="Strawberry Tall Quantity">Tall</label>
+                        <input type="number" id="StrawberryTall" name="StrawberryTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="StrawberryGrande" aria-label="Strawberry Grande Quantity">Grande</label>
+                        <input type="number" id="StrawberryGrande" name="StrawberryGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="StrawberryVenti" aria-label="Strawberry Venti Quantity">Venti</label>
+                        <input type="number" id="StrawberryVenti" name="StrawberryVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Blueberry</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="BlueberryTall" aria-label="Blueberry Tall Quantity">Tall</label>
+                        <input type="number" id="BlueberryTall" name="BlueberryTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BlueberryGrande" aria-label="Blueberry Grande Quantity">Grande</label>
+                        <input type="number" id="BlueberryGrande" name="BlueberryGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BlueberryVenti" aria-label="Blueberry Venti Quantity">Venti</label>
+                        <input type="number" id="BlueberryVenti" name="BlueberryVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Kiwi</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="KiwiTall" aria-label="Kiwi Tall Quantity">Tall</label>
+                        <input type="number" id="KiwiTall" name="KiwiTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="KiwiGrande" aria-label="Kiwi Grande Quantity">Grande</label>
+                        <input type="number" id="KiwiGrande" name="KiwiGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="KiwiVenti" aria-label="Kiwi Venti Quantity">Venti</label>
+                        <input type="number" id="KiwiVenti" name="KiwiVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Watermelon</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="WatermelonTall" aria-label="Watermelon Tall Quantity">Tall</label>
+                        <input type="number" id="WatermelonTall" name="WatermelonTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="WatermelonGrande" aria-label="Watermelon Grande Quantity">Grande</label>
+                        <input type="number" id="WatermelonGrande" name="WatermelonGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="WatermelonVenti" aria-label="Watermelon Venti Quantity">Venti</label>
+                        <input type="number" id="WatermelonVenti" name="WatermelonVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Lychee</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="LycheeTall" aria-label="Lychee Tall Quantity">Tall</label>
+                        <input type="number" id="LycheeTall" name="LycheeTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="LycheeGrande" aria-label="Lychee Grande Quantity">Grande</label>
+                        <input type="number" id="LycheeGrande" name="LycheeGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="LycheeVenti" aria-label="Lychee Venti Quantity">Venti</label>
+                        <input type="number" id="LycheeVenti" name="LycheeVenti" min="0">
+                    </div>
+                    <hr>
+                </div>
             </div>
-            <div class="input">
-            <h3>White Rabbit</h3>
-            <hr>
-            <div class="form-group">
-            <label for="WhiteRabbitTall" aria-label="WhiteRabbit Tall Quantity">Tall</label>
-            <input type="number" id="WhiteRabbitTall" name="WhiteRabbitTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="WhiteRabbitGrande" aria-label="WhiteRabbit Grande Quantity">Grande</label>
-            <input type="number" id="WhiteRabbitGrande" name="WhiteRabbitGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="WhiteRabbitVenti" aria-label="WhiteRabbit Venti Quantity">Venti</label>
-            <input type="number" id="WhiteRabbitVenti" name="WhiteRabbitVenti" min="0">
-            </div>
-            <hr>
-            <h3>Banana</h3>
-            <hr>
-            <div class="form-group">
-            <label for="BananaTall" aria-label="Banana Tall Quantity">Tall</label>
-            <input type="number" id="BananaTall" name="BananaTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BananaGrande" aria-label="Banana Grande Quantity">Grande</label>
-            <input type="number" id="BananaGrande" name="BananaGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BananaVenti" aria-label="Banana Venti Quantity">Venti</label>
-            <input type="number" id="BananaVenti" name="BananaVenti" min="0">
-            </div>
-            <hr>
-            <h3>Meiji</h3>
-            <hr>
-            <div class="form-group">
-            <label for="MeijiTall" aria-label="Meiji Tall Quantity">Tall</label>
-            <input type="number" id="MeijiTall" name="MeijiTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="MeijiGrande" aria-label="Meiji Grande Quantity">Grande</label>
-            <input type="number" id="MeijiGrande" name="MeijiGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="MeijiVenti" aria-label="Meiji Venti Quantity">Venti</label>
-            <input type="number" id="MeijiVenti" name="MeijiVenti" min="0">
-            </div>
-            <hr>
 
-            <h3>Brown Sugar Series</h3>
-            <hr>
-            <div class="form-group">
-            <label for="BrownSugarSeriesTall" aria-label="BrownSugar Tall Quantity">Tall</label>
-            <input type="number" id="BrownSugarSeriesTall" name="BrownSugarSeriesTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BrownSugarSeriesGrande" aria-label="BrownSugar Grande Quantity">Grande</label>
-            <input type="number" id="BrownSugarSeriesGrande" name="BrownSugarSeriesGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="BrownSugarSeriesVenti" aria-label="BrownSugar Venti Quantity">Venti</label>
-            <input type="number" id="BrownSugarSeriesVenti" name="BrownSugarSeriesVenti" min="0">
-            </div>
-            <hr>
+            <div class="section">
+                <div class="header">
+                    <h2>New Flavors</h2>
+                    <ul>
+                        <li>Tall - 65</li>
+                        <li>Grande - 75</li>
+                        <li>Venti - 85</li>
+                    </ul>
+                </div>
+                <div class="input">
+                    <h3>White Rabbit</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="WhiteRabbitTall" aria-label="WhiteRabbit Tall Quantity">Tall</label>
+                        <input type="number" id="WhiteRabbitTall" name="WhiteRabbitTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="WhiteRabbitGrande" aria-label="WhiteRabbit Grande Quantity">Grande</label>
+                        <input type="number" id="WhiteRabbitGrande" name="WhiteRabbitGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="WhiteRabbitVenti" aria-label="WhiteRabbit Venti Quantity">Venti</label>
+                        <input type="number" id="WhiteRabbitVenti" name="WhiteRabbitVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Banana</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="BananaTall" aria-label="Banana Tall Quantity">Tall</label>
+                        <input type="number" id="BananaTall" name="BananaTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BananaGrande" aria-label="Banana Grande Quantity">Grande</label>
+                        <input type="number" id="BananaGrande" name="BananaGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BananaVenti" aria-label="Banana Venti Quantity">Venti</label>
+                        <input type="number" id="BananaVenti" name="BananaVenti" min="0">
+                    </div>
+                    <hr>
+                    <h3>Meiji</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="MeijiTall" aria-label="Meiji Tall Quantity">Tall</label>
+                        <input type="number" id="MeijiTall" name="MeijiTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="MeijiGrande" aria-label="Meiji Grande Quantity">Grande</label>
+                        <input type="number" id="MeijiGrande" name="MeijiGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="MeijiVenti" aria-label="Meiji Venti Quantity">Venti</label>
+                        <input type="number" id="MeijiVenti" name="MeijiVenti" min="0">
+                    </div>
+                    <hr>
 
-            <h3>Two Toned Flavors</h3>
-            <hr>
-            <div class="form-group">
-            <label for="TwoTonedFlavorsTall" aria-label="TwoToned Tall Quantity">Tall</label>
-            <input type="number" id="TwoTonedFlavorsTall" name="TwoTonedFlavorsTall" min="0">
-            </div>
-            <div class="form-group">
-            <label for="TwoTonedFlavorsGrande" aria-label="TwoToned Grande Quantity">Grande</label>
-            <input type="number" id="TwoTonedFlavorsGrande" name="TwoTonedFlavorsGrande" min="0">
-            </div>
-            <div class="form-group">
-            <label for="TwoTonedFlavorsVenti" aria-label="TwoToned Venti Quantity">Venti</label>
-            <input type="number" id="TwoTonedFlavorsVenti" name="TwoTonedFlavorsVenti" min="0">
-            </div>
-            <hr>
-            </div>
+                    <h3>Brown Sugar Series</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="BrownSugarSeriesTall" aria-label="BrownSugar Tall Quantity">Tall</label>
+                        <input type="number" id="BrownSugarSeriesTall" name="BrownSugarSeriesTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BrownSugarSeriesGrande" aria-label="BrownSugar Grande Quantity">Grande</label>
+                        <input type="number" id="BrownSugarSeriesGrande" name="BrownSugarSeriesGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="BrownSugarSeriesVenti" aria-label="BrownSugar Venti Quantity">Venti</label>
+                        <input type="number" id="BrownSugarSeriesVenti" name="BrownSugarSeriesVenti" min="0">
+                    </div>
+                    <hr>
+
+                    <h3>Two Toned Flavors</h3>
+                    <hr>
+                    <div class="form-group">
+                        <label for="TwoTonedFlavorsTall" aria-label="TwoToned Tall Quantity">Tall</label>
+                        <input type="number" id="TwoTonedFlavorsTall" name="TwoTonedFlavorsTall" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="TwoTonedFlavorsGrande" aria-label="TwoToned Grande Quantity">Grande</label>
+                        <input type="number" id="TwoTonedFlavorsGrande" name="TwoTonedFlavorsGrande" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="TwoTonedFlavorsVenti" aria-label="TwoToned Venti Quantity">Venti</label>
+                        <input type="number" id="TwoTonedFlavorsVenti" name="TwoTonedFlavorsVenti" min="0">
+                    </div>
+                    <hr>
+                </div>
             </div>
             <div class="button-group" id="OrderNowButtonContainer">
-            <button type="submit" class="button">Order Now</button>
-            <button type="reset" class="button">Delete</button>
+                <button type="submit" class="button">Order Now</button>
+                <button type="reset" class="button">Delete</button>
             </div>
         </form>
 
